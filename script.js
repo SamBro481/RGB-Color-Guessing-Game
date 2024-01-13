@@ -69,7 +69,7 @@ for(var i=0; i<squares.length; i++){
     squares[i].addEventListener("click", function(){
         var clickedColor = this.style.backgroundColor;
         if(clickedColor == pickedColor){
-            messageDisplay.textContent = "You Are Correct!"
+            messageDisplay.textContent = "Correct!"
             change(clickedColor);
             h1.style.backgroundColor = clickedColor;
             resetButton.textContent = "Play Again?";
